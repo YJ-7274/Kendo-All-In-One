@@ -1,17 +1,17 @@
-import { Bogu_Guide } from "../../Kendo-All-In-One/src/components";
-import { Kendo } from "../../Kendo-All-In-One/src/components";
-import { Kendo_Etiquette } from "../../Kendo-All-In-One/src/components";
-import { Federation_Membership } from "../../Kendo-All-In-One/src/components";
-import { NavBar } from "../../Kendo-All-In-One/src/components";
-import { Dojo_Locations } from "../../Kendo-All-In-One/src/components";
-import { Common_Kendo_Terminalogy } from "../../Kendo-All-In-One/src/components";
+import NavBar from "./NavBar";
+import Kendo from "./Kendo";
+import Kendo_Etiquette from "./Kendo_Etiquette";
+import Federation_Membership from "./Federation_Membership";
+import Bogu_Guide from "./Bogu_Guide";
+import Dojo_Locations from "./Dojo_Locations";
+import Common_Kendo_Terminalogy from "./Common_Kendo_Terminalogy";
 
 export{
-    Kendo, 
-    Kendo_Etiquette,
-    Bogu_Guide,
-    Federation_Membership,
     NavBar,
+    Kendo,
+    Kendo_Etiquette,
+    Federation_Membership,
+    Bogu_Guide,
     Dojo_Locations,
     Common_Kendo_Terminalogy,
 };

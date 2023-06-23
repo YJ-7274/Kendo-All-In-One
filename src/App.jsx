@@ -13,10 +13,10 @@ import {
 
 const App = () => (
   <div className = "bg-primary w-full overflow-hidden">
-    <h1>NavBar</h1>
+
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className= {`${styles.boxWidth}`}>
-        <h1>NavBar</h1>
+        <NavBar/>
       </div>
     </div>
 
