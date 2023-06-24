@@ -12,6 +12,8 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        comfortaa: ["Comfortaa", "cursive"],
+        advantage: ["Advantage", "sans-serif"],
       },
     },
     screens: {
