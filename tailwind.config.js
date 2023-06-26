@@ -15,6 +15,7 @@ module.exports = {
         comfortaa: ["Comfortaa", "cursive"],
         advantage: ["Advantage", "sans-serif"],
       },
+
     },
     screens: {
       xs: "480px",
@@ -24,6 +25,7 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    safelist: ['animate-[fade-in_1s_ease-in-out]', 'animate-[fade-in-down_1s_ease-in-out]']
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
 };

@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import Kendo from "./Kendo";
+import Home from "./Home";
 import Kendo_Etiquette from "./Kendo_Etiquette";
 import Federation_Membership from "./Federation_Membership";
 import Bogu_Guide from "./Bogu_Guide";
@@ -8,7 +8,7 @@ import Common_Kendo_Terminalogy from "./Common_Kendo_Terminalogy";
 
 export{
     NavBar,
-    Kendo,
+    Home,
     Kendo_Etiquette,
     Federation_Membership,
     Bogu_Guide,

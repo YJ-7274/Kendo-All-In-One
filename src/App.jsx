@@ -3,13 +3,14 @@ import styles from './style'
 
 import {
   NavBar,
-  Kendo,
+  Home,
   Kendo_Etiquette,
   Federation_Membership,
   Bogu_Guide,
   Dojo_Locations,
   Common_Kendo_Terminalogy,
 } from './components';
+
 
 const App = () => (
   <div className = "bg-primary w-full overflow-hidden">
@@ -22,7 +23,7 @@ const App = () => (
 
     <div className = {`bg-primary ${styles.flexStart}`}>
       <div className= {`${styles.boxWidth}`}>
-        <Kendo/>
+        <Home/>
       </div>
     </div>
 

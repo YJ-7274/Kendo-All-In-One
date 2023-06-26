@@ -8,10 +8,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-1 justify-between items-center navbar">
+    <nav className="w-full flex justify-between items-center navbar">
       <a href="#" class="flex items-center">
         <img src={logo} class="h-20 mr-1" alt="Kendo Logo" />
-        <span class="self-center text-2xl font-advantage whitespace-nowrap text-white">Kendo All In One</span>
+        <div class={`"self-center font-advantage whitespace-nowrap text-white sm:text-2xl text-lg "`}>Kendo All In One</div>
     </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
