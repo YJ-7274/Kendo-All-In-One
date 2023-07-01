@@ -19,10 +19,19 @@
   scroll-behavior: smooth;
 }
 
+iframe{
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
 p{
   max-width: 66%;
 }
 
+.container{
+  overflow:scroll
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

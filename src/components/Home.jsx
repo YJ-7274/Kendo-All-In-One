@@ -25,8 +25,7 @@ function FadeInSection(props) {
 const Home = () => {
   useEffect(() => {Aos.init({duration:2000});},[]);
   return (
-
-    <div className='grid grid-cols-1 grid-rows-2 justify-center content-center gap-y-8'>
+    <div className='w-full grid grid-cols-1 grid-rows-2 justify-center content-center gap-y-8'>
       <div className="w-full h-1/2 bg-no-repeat bg-cover">
         <img src={home_image} alt="home_image" />
       </div>

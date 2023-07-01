@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './style'
+import {Route, Routes,BrowserRouter as Router} from 'react-router-dom'
 
 import {
   NavBar,
@@ -13,29 +14,27 @@ import {
 
 
 const App = () => (
-  <div className = "bg-primary w-full overflow-hidden">
+  <div className = "bg-primary w-screen overflow-hidden">
 
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className= {`${styles.boxWidth}`}>
-        <NavBar/>
-      </div>
+      <NavBar/>
+      </div>      
     </div>
+
 
     <div className = {`bg-primary ${styles.flexStart}`}>
       <div className= {`${styles.boxWidth}`}>
-        <Home/>
+        <Router>
+        <Routes>
+          <Route path = '/' element = {<Home />}/>
+          <Route path = '/dojo-map' element = {<Dojo_Locations />}/>
+          <Route path = '/equipment' element = {<Bogu_Guide />}/>
+          <Route path = '/beginners-guide' element = {<Common_Kendo_Terminalogy />}/>
+        </Routes></Router>
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className= {`${styles.boxWidth}`}>
-        <Dojo_Locations/>
-        <Bogu_Guide/> 
-        <Kendo_Etiquette/>
-        <Common_Kendo_Terminalogy/> 
-        <Federation_Membership/> 
-      </div>
-    </div>
 
   </div>
 )

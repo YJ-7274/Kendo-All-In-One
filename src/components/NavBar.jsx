@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -9,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
-      <a href="#" class="flex items-center">
+      <a href="/" class="flex items-center">
         <img src={logo} class="h-20 mr-1" alt="Kendo Logo" />
         <div class={`"self-center font-advantage whitespace-nowrap text-white sm:text-2xl text-lg "`}>Kendo All In One</div>
     </a>
@@ -22,8 +21,9 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`${nav.path}`}>{nav.title}</a>
           </li>
+
         ))}
       </ul>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.path}`}>{nav.title}</a>
               </li>
             ))}
           </ul>
