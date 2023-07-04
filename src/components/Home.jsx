@@ -32,7 +32,7 @@ const Home = () => {
       <FadeInSection>
         <div
         className=' flex text-white sm:text-3xl text-lg font-comfortaa w-full text-center justify-center content-center' data-aos = "fade-left">
-        <p>Welcome to Kendo All In One, where you can find everything that you will need to start your kendo journey.</p>
+        <span >Welcome to Kendo All In One, where you can find everything that you will need to start your kendo journey.</span>
       </div>
       </FadeInSection>
       

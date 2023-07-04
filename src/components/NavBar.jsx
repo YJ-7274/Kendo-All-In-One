@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="w-full flex justify-between items-center navbar">
       <a href="/" class="flex items-center">
         <img src={logo} class="h-20 mr-1" alt="Kendo Logo" />
-        <div class={`"self-center font-advantage whitespace-nowrap text-white sm:text-2xl text-lg "`}>Kendo All In One</div>
+        <div class={`"self-center font-advantage whitespace-nowrap text-white sm:text-2xl text-lg mr-1 "`}>Kendo All In One</div>
     </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

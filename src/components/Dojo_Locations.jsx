@@ -3,7 +3,7 @@ import React from 'react'
 const Dojo_Locations = () => {
 
   return (
-    <div className=' grid grid-cols-3 gap-4 sm:w-full w-1/4'>       
+    <div className=' grid grid-cols-3 gap-4 w-full  '>       
       <div
         className=' flex text-white sm:text-3xl text-lg font-comfortaa w-full text-center justify-center content-center'>
         <p>List of AUSKF affiliated Kendo Dojos in the United States</p>

@@ -25,8 +25,13 @@ iframe{
   width: 100%;
 }
 
-p{
-  max-width: 66%;
+span{
+  display: block;
+  width: 66%;
+}
+
+p {
+  margin: 10px;
 }
 
 .container{

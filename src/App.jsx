@@ -7,7 +7,7 @@ import {
   Home,
   Kendo_Etiquette,
   Federation_Membership,
-  Bogu_Guide,
+  Equipment_Guide,
   Dojo_Locations,
   Common_Kendo_Terminalogy,
 } from './components';
@@ -29,9 +29,10 @@ const App = () => (
         <Routes>
           <Route path = '/' element = {<Home />}/>
           <Route path = '/dojo-map' element = {<Dojo_Locations />}/>
-          <Route path = '/equipment' element = {<Bogu_Guide />}/>
+          <Route path = '/equipment' element = {<Equipment_Guide />}/>
           <Route path = '/beginners-guide' element = {<Common_Kendo_Terminalogy />}/>
-        </Routes></Router>
+        </Routes>
+        </Router>
       </div>
     </div>
 
