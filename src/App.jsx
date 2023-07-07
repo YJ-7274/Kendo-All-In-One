@@ -11,6 +11,7 @@ import {
   Dojo_Locations,
   Common_Kendo_Terminalogy,
 } from './components';
+import Equipment_Care from './components/Equipment_Care';
 
 
 const App = () => (
@@ -30,7 +31,9 @@ const App = () => (
           <Route path = '/' element = {<Home />}/>
           <Route path = '/dojo-map' element = {<Dojo_Locations />}/>
           <Route path = '/equipment' element = {<Equipment_Guide />}/>
-          <Route path = '/beginners-guide' element = {<Common_Kendo_Terminalogy />}/>
+          <Route path = '/kendo-terminalogy' element = {<Common_Kendo_Terminalogy />}/>
+          <Route path = '/kendo-etiquette' element = {<Kendo_Etiquette/>}/>
+          <Route path = '/equipment-care' element = {<Equipment_Care/>}/>
         </Routes>
         </Router>
       </div>

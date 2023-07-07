@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import Dropdown from './Dropdown';
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
@@ -21,7 +23,25 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`${nav.path}`}>{nav.title}</a>
+            {nav.submenu ? (
+            <>
+            <button
+              className="w-full"
+              type="button" aria-haspopup="menu"
+              aria-expanded={dropdown ? "true" : "false"}
+              onClick={() => setDropdown((prev) => !prev)}
+            >
+              
+              <p className="arrow"> {nav.title}{" "}</p>
+            </button>
+            <Dropdown 
+              submenus={nav.submenu}
+              dropdown={dropdown} 
+            />
+            </>
+          ) : (
+          <a href={`${nav.path}`}>{nav.title}</a>
+          )}
           </li>
 
         ))}

@@ -13,6 +13,24 @@ export const navLinks = [
       id: "Beginners Guide",
       title: "Beginners Guide",
       path: '/beginners-guide',
+      
+      submenu: [
+      {
+        id: "Kendo Terminology",
+        title: "Kendo Terminology",
+        path: '/kendo-terminology',
+      },
+      {
+        id: "Kendo Etiqeutte",
+        title: "Kendo Etiqeutte",
+        path: 'kendo-etiquette',
+      },
+      {
+        id: "Equipment Care",
+        title: "Equipment Care",
+        path: 'equipment-care',
+      },
+    ],
     },
     {
       id: "Equipment",
