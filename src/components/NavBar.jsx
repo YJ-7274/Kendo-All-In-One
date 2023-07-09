@@ -32,7 +32,7 @@ const Navbar = () => {
               onClick={() => setDropdown((prev) => !prev)}
             >
               
-              <p className="arrow"> {nav.title}{" "}</p>
+              <p className="arrow">{nav.title}{" "}</p>
             </button>
             <Dropdown 
               submenus={nav.submenu}
@@ -69,7 +69,25 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`${nav.path}`}>{nav.title}</a>
+                {nav.submenu ? (
+            <>
+            <button
+              className="w-full"
+              type="button" aria-haspopup="menu"
+              aria-expanded={dropdown ? "true" : "false"}
+              onClick={() => setDropdown((prev) => !prev)}
+            >
+              
+              <p className="arrow"> {nav.title}{" "}</p>
+            </button>
+            <Dropdown 
+              submenus={nav.submenu}
+              dropdown={dropdown} 
+            />
+            </>
+          ) : (
+          <a href={`${nav.path}`}>{nav.title}</a>
+          )}
               </li>
             ))}
           </ul>

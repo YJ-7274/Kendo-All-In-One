@@ -34,7 +34,7 @@ export const navLinks = [
     },
     {
       id: "Equipment",
-      title: "Equipment",
+      title: "Kendo Equipment Overview",
       path: '/equipment',
     },
   ];
