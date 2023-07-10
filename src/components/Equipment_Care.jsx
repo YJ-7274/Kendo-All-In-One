@@ -1,12 +1,45 @@
 import React from 'react'
-import {home_image} from '../assets'
 const Equipment_Care = () => {
   return (
-    <div className='w-full grid grid-cols-1 grid-rows-2 justify-center content-center gap-y-8'>
-      <div className="w-full h-1/2 bg-no-repeat bg-cover">
-        <img src={home_image} alt="home_image" />
+    <div className=' grid grid-cols-3 gap-4 w-full  '>       
+      <div
+        className=' flex text-white sm:text-3xl text-lg font-comfortaa w-full text-center justify-center content-center'>
+        <span>Folding your hakama & gi</span>
+      </div>
+
+      <div className='col-span-2'>
+      <iframe width="400" height="500" src="https://www.youtube.com/embed/Sqcuq71i670" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div
+        className=' flex text-white sm:text-3xl text-lg font-comfortaa w-full text-center justify-center content-center'>
+        <span>Washing your hakama & gi (and kote)</span>
+      </div>
+
+      <div className='col-span-2'>
+      <iframe width="400" height="500" src="https://www.youtube.com/embed/PnqJtUA-1qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div
+        className=' flex text-white sm:text-3xl text-lg font-comfortaa w-full text-center justify-center content-center'>
+        <span>Taking care of your bogu (armor) </span>
+      </div>
+
+      <div className='col-span-2'>
+      <iframe width="400" height="500" src="https://www.youtube.com/embed/w9AhpPhwvbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div
+        className=' flex text-white sm:text-3xl text-lg font-comfortaa w-full text-center justify-center content-center'>
+        <span>Taking care of your shinai </span>
+      </div>
+
+      <div className='col-span-2'>
+      <iframe width="400" height="500" src="https://www.youtube.com/embed/CjEpeQcwsYA?start=439" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      
     </div>
-    </div>
+    
   )
 }
 
