@@ -5,6 +5,8 @@ import Federation_Membership from "./Federation_Membership";
 import Equipment_Guide from "./Equipment_Guide";
 import Dojo_Locations from "./Dojo_Locations";
 import Common_Kendo_Terminalogy from "./Common_Kendo_Terminalogy";
+import Equipment_Care from "./Equipment_Care";
+import Dropdown from "./Dropdown";
 
 export{
     NavBar,
@@ -12,6 +14,8 @@ export{
     Kendo_Etiquette,
     Federation_Membership,
     Equipment_Guide,
+    Equipment_Care,
     Dojo_Locations,
     Common_Kendo_Terminalogy,
+    Dropdown,
 };
