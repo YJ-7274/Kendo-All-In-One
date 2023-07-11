@@ -77,8 +77,7 @@ function FadeInSection(props) {
           </div>
 
           <div className='sm:mt-16 mt-6 mr-2 col-span-2 text-white sm:text-xl text-sm font-poppins w-full text-center justify-center content-center'>
-          <p>The main component of the dō is the gently-curving stomach and chest protector. 
-            The modern form has a pronounced bulge to help direct the force of strikes away from the soft areas in the middle of the torso.
+          <p>The gently-curving stomach and chest protector, the do's modern form has a pronounced bulge to help direct the force of strikes away from the soft areas in the middle of the torso.
             Lacquered bamboo is traditionally used although lacquered paper 'fibre' (frequently misidentified as fiberglass) 
             or moulded plastic are used for less expensive dō. The dō is supported from the shoulders by two diagonal ties and 
             is restrained at the small of the back with another set of ties. </p>

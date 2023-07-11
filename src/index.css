@@ -74,7 +74,9 @@ p {
   align-items: center;
 }
 
-
+li.bullet{
+  width: 50%;
+}
 [data-aos] {
   pointer-events: none;
 }
