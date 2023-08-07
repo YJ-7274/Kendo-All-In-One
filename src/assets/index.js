@@ -10,6 +10,12 @@ import tenugui from "./tenugui.jpg";
 import hakamagi from "./hakgi.jpg";
 import shinai from "./Shinai.jpg";
 import bokken from "./bokken.jpg";
+import equipmentCare from "./EquipmentCare.png"
+import equipmentOverview from "./EquipmentOverview.png"
+import etiquette from "./Etiquette.png"
+import dojoMaps from "./dojoMap.png"
+import terminology from "./Terminology.png"
+import wearingEquipment from "./WearingEquipment.jpg"
 export{
     logo,
     menu,
@@ -22,5 +28,11 @@ export{
     tenugui, 
     hakamagi,
     shinai,
-    bokken
+    bokken,
+    equipmentCare,
+    equipmentOverview,
+    etiquette,
+    dojoMaps,
+    terminology,
+    wearingEquipment,
 };

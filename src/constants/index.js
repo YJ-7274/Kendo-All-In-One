@@ -30,6 +30,12 @@ export const navLinks = [
         title: "Equipment Care",
         path: 'equipment-care',
       },
+      
+      {
+        id: "Wearing Equipment",
+        title: "Wearing Equipment",
+        path: 'wearing-equipment',
+      },
     ],
     },
     {
