@@ -60,8 +60,8 @@ const Common_Kendo_Terminalogy = () => {
             </ul>
           </div>
 
-          <div
-            className='text-red-400 sm:mt-5 mt-10 text-white sm:text-2xl text-md font-comfortaa w-full text-center justify-center content-center '>
+        <div
+            className='text-orange-400 sm:mt-5 mt-10 text-white sm:text-2xl text-md font-comfortaa w-full text-center justify-center content-center '>
             <p>General terms</p>
         </div>
         <div 

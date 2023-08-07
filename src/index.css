@@ -41,6 +41,18 @@ p {
 .container{
   overflow:scroll
 }
+
+.img-1{
+  object-fit: cover;
+  width: auto;
+  height: 500px;
+  min-width: 100%;
+}
+.img-2{
+  object-fit: cover;
+  width: auto;
+  height: 230px;
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

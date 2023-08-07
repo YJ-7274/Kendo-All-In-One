@@ -6,10 +6,10 @@ import {
   NavBar,
   Home,
   Kendo_Etiquette,
-  Federation_Membership,
   Equipment_Guide,
   Dojo_Locations,
   Common_Kendo_Terminalogy,
+  WearingEquipment,
 } from './components';
 import Equipment_Care from './components/Equipment_Care';
 
@@ -34,6 +34,7 @@ const App = () => (
           <Route path = '/kendo-terminology' element = {<Common_Kendo_Terminalogy />}/>
           <Route path = '/kendo-etiquette' element = {<Kendo_Etiquette/>}/>
           <Route path = '/equipment-care' element = {<Equipment_Care/>}/>
+          <Route path = '/wearing-equipment' element = {<WearingEquipment/>}/>
         </Routes>
         </Router>
       </div>
