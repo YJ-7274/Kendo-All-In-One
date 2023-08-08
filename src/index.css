@@ -53,6 +53,14 @@ p {
   width: auto;
   height: 230px;
 }
+.react-player {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.img3{
+  margin-left: auto;
+  margin-right: auto;
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

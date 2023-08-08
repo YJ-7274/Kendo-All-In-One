@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react'
+import {shomen} from '../assets'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-
+import ReactPlayer from 'react-player'
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
   const domRef = React.useRef();
@@ -79,6 +80,65 @@ const Kendo_Etiquette = () => {
               <li>Bow when entering the Dojo</li>
               <li>Remember to take off your shoes before you enter the Dojo</li>
               <li>Bow when leaving the dojo</li>
+            </ul>
+          </div>
+
+          <div
+              className='text-red-400 sm:mt-5 mt-10 text-white sm:text-2xl text-md font-comfortaa w-full text-center justify-center content-center '>
+              <p  className='text-red-400'>Beginning and Ending Practice - Shōmen & Mokuso</p>
+          </div>
+          
+          <div 
+          className='sm:mt-5 mt-3 text-white sm:text-lg text-sm font-comfortaa w-full text-center justify-center content-center '>
+            
+            <ul class="list-disc text-left ml-10">
+              <li>The Shōmen is the "front" of the dojo, and is usually located at the north side of the dojo. </li>
+              <li>Senseis will usually sit in front of the side of the 
+              dojo that the shōmen is located, though not directly in front of the shōmen. </li>
+              <li>The students sit facing the shōmen with the highest rank holders sitting on the 
+              east side of the dojo and the lowest rank holders sitting on west side of the dojo. </li>
+            </ul>
+          </div>
+          <img className = "img3" height = "400px" width = "400px"src = {shomen} alt = "image"></img>
+
+          <div 
+          className='sm:mt-5 mt-3 text-white sm:text-lg text-sm font-comfortaa w-full text-center justify-center content-center '>
+            
+            <ul class="list-disc text-left ml-10">
+              <li>Before and after practice, dojo members will bow (zarei) to the shōmen, sensei, and each other.</li>
+              <li>Mokuso (or mediation) is performed before and after practice to calm your mind.</li>
+            </ul>
+          </div>          
+
+
+          <div
+              className='text-red-400 sm:mt-5 mt-10 text-white sm:text-2xl text-md font-comfortaa w-full text-center justify-center content-center '>
+              <p  className='text-red-400'>Beginning and Ending of a match</p>
+          </div>
+
+          <div 
+          className='sm:mt-5 mt-3 text-white sm:text-lg text-sm font-comfortaa w-full text-center justify-center content-center '>
+            
+            <ul class="list-disc text-left ml-10">
+              <li>Applies to shiai (competition matches) and keiko (free sparring), as well as other instances of sparring</li>
+              <li>When starting a match, bow to your opponent (15 degrees), take three steps towards your opponent and draw your shinai before dropping into sonkyo (squat).
+                Rise when referee indicates the match has started (when in shiai) or when you and your opponent are ready (in keiko).
+                </li>
+                <li>After the match ends, repeat the starting procedure but in reverse. Sonkyo and stow your shinai, then rise and take three steps back before bowing to your opponent </li>
+            </ul>
+          </div>
+          <ReactPlayer  style={{margin:"auto"}} height = {500} width= '80%' url = "src\assets\shiai.mp4" controls={true}></ReactPlayer> 
+          
+        <div
+              className='text-red-400 sm:mt-5 mt-10 text-white sm:text-2xl text-md font-comfortaa w-full text-center justify-center content-center '>
+              <p  className='text-red-400'>Shinai Etiquette</p>
+          </div>
+          <div 
+          className='sm:mt-5 mt-3 text-white sm:text-lg text-sm font-comfortaa w-full text-center justify-center content-center '>
+            <ul class="list-disc text-left ml-10">
+              <li>Do not step over shinai, as it is very disrespectful to do so. A shinai represents the sword and the sword is considered to be a representation of the soul of a samurai. </li>
+              <li>When placing a shinai against a wall (when you are not using it), make sure the shinai is pointed up instead of down.</li>
+              <li>Always handle your shinai respectfully. Do not lean on it, rest it on the floor, twirl it, or drag it. Make sure it is well maintained</li>
             </ul>
           </div>
         </div>

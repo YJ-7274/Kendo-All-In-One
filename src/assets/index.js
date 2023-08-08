@@ -16,6 +16,7 @@ import etiquette from "./Etiquette.png"
 import dojoMaps from "./dojoMap.png"
 import terminology from "./Terminology.png"
 import wearingEquipment from "./WearingEquipment.jpg"
+import shomen from "./Shomen.png"
 export{
     logo,
     menu,
@@ -35,4 +36,5 @@ export{
     dojoMaps,
     terminology,
     wearingEquipment,
+    shomen,
 };
