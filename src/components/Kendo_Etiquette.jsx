@@ -127,7 +127,7 @@ const Kendo_Etiquette = () => {
                 <li>After the match ends, repeat the starting procedure but in reverse. Sonkyo and stow your shinai, then rise and take three steps back before bowing to your opponent </li>
             </ul>
           </div>
-          <ReactPlayer  style={{margin:"auto"}} height = {500} width= '80%' url = "src\assets\shiai.mp4" controls={true}></ReactPlayer> 
+          <ReactPlayer  style={{margin:"auto"}} height = {500} width= '80%' url = "https://youtu.be/SpD-G1TWxeQ" controls={true}></ReactPlayer> 
           
         <div
               className='text-red-400 sm:mt-5 mt-10 text-white sm:text-2xl text-md font-comfortaa w-full text-center justify-center content-center '>
