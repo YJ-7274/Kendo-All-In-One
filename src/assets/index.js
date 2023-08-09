@@ -17,6 +17,8 @@ import dojoMaps from "./dojoMap.png"
 import terminology from "./Terminology.png"
 import wearingEquipment from "./WearingEquipment.jpg"
 import shomen from "./Shomen.png"
+import instagram from "./instagram.svg"
+import linkedin from "./linkedin.svg"
 export{
     logo,
     menu,
@@ -37,4 +39,6 @@ export{
     terminology,
     wearingEquipment,
     shomen,
+    instagram,
+    linkedin,
 };

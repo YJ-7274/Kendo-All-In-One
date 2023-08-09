@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import {home_image,terminology,etiquette,wearingEquipment,equipmentCare,equipmentOverview,dojoMaps} from '../assets'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Equipment_Care from './Equipment_Care';
+import Footer from './Footer'
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
@@ -26,11 +26,11 @@ function FadeInSection(props) {
 const Home = () => {
   useEffect(() => {Aos.init({duration:2000});},[]);
   return (
-    <div className='w-full grid grid-cols-1 grid-rows-2 justify-center content-center gap-y-6'>
-      <div className="w-full h-1/2 bg-no-repeat bg-cover">
+    <div className='w-full grid grid-cols-1 grid-rows-1 justify-center content-center gap-y-2'>
+      <div className="w-full  bg-no-repeat bg-cover">
         <img src={home_image} alt="home_image" />
-      </div>
-      <FadeInSection>
+
+        <FadeInSection>
         <div
         className=' flex text-white sm:text-3xl text-lg font-comfortaa w-full text-center justify-center content-center' data-aos = "fade-left">
           <span >Welcome to Kendo All In One, where you can find everything that you will need to start your kendo journey.</span>
@@ -76,6 +76,9 @@ const Home = () => {
           </div>
       </div>
       </FadeInSection>
+      
+      </div>
+      <Footer/>
       
     </div>
   )
